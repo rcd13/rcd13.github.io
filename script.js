@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', function () {
     const responses = [
         { text: "Go Bills", image: "images/potato" },
-        { text: "Stay humble", image: "images/ask-again.png" },
-        { text: "We got a great team this year and I have a good feeling about this", image: "images/cannot-predict.png" },
+        { text: "Stay humble", image: "images/josh1" },
+        { text: "We got a great team this year and I have a good feeling about this", image: "images/josh2" },
         { text: "We're just taking it one game at a time", image: "images/dont-count-on-it.png" },
         { text: "You got to continue to trust the process, stick to what you know, learn from what happened and move on", image: "images/outlook-bad.png" },
         { text: "I'm just trying to be the best quarterback possible.", image: "images/yes-definitely.png" },
