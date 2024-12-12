@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     const responses = [
-        { text: "Go Bills", image: "images/certain.png" },
+        { text: "Go Bills", image: "images/potato" },
         { text: "Stay humble", image: "images/ask-again.png" },
         { text: "We got a great team this year and I have a good feeling about this", image: "images/cannot-predict.png" },
         { text: "We're just taking it one game at a time", image: "images/dont-count-on-it.png" },
