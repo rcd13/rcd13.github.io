@@ -1,12 +1,12 @@
 document.addEventListener('DOMContentLoaded', function () {
     const responses = [
-        { text: "It is certain", image: "images/certain.png" },
-        { text: "Ask again later", image: "images/ask-again.png" },
-        { text: "Cannot predict now", image: "images/cannot-predict.png" },
-        { text: "Don't count on it", image: "images/dont-count-on-it.png" },
-        { text: "Outlook not so good", image: "images/outlook-bad.png" },
-        { text: "Yes, definitely", image: "images/yes-definitely.png" },
-        { text: "You may rely on it", image: "images/rely-on-it.png" },
+        { text: "Go Bills", image: "images/certain.png" },
+        { text: "Stay humble", image: "images/ask-again.png" },
+        { text: "We got a great team this year and I have a good feeling about this", image: "images/cannot-predict.png" },
+        { text: "We're just taking it one game at a time", image: "images/dont-count-on-it.png" },
+        { text: "You got to continue to trust the process, stick to what you know, learn from what happened and move on", image: "images/outlook-bad.png" },
+        { text: "I'm just trying to be the best quarterback possible.", image: "images/yes-definitely.png" },
+        { text: "At the end of the day, it's not where you get drafted. It's being surrounded by the right people, the right players, the right coaches, how you present yourself, how you work hard.", image: "images/rely-on-it.png" },
         { text: "Very doubtful", image: "images/doubtful.png" },
     ];
 
