@@ -2,12 +2,16 @@ document.addEventListener('DOMContentLoaded', function () {
     const responses = [
         { text: "Go Bills", image: "images/potato" },
         { text: "Stay humble", image: "images/josh1" },
+        { text: "Pressure is a privilege. It means people believe in you.", image: "images/josh1" },
+        { text: "I trust my preparation and my teammates. It's about going out there and executing.", image: "images/josh1" },
         { text: "We got a great team this year and I have a good feeling about this", image: "images/josh2" },
         { text: "We're just taking it one game at a time", image: "images/potato" },
         { text: "You got to continue to trust the process, stick to what you know, learn from what happened and move on", image: "images/potato" },
         { text: "I'm just trying to be the best quarterback possible.", image: "images/potato" },
         { text: "At the end of the day, it's not where you get drafted. It's being surrounded by the right people, the right players, the right coaches, how you present yourself, how you work hard.", image: "images/potato" },
-        { text: "Very doubtful", image: "images/potato" },
+        { text: "You can't focus on the noise. It's about staying grounded and taking things one play at a time.", image: "images/potato" },
+        { text: "Adversity is like the wind off Lake Erie—cold and unforgiving, but it makes you tougher if you face it head-on.", image: "images/potato" },
+        { text: "No one circles the wagons like the Buffalo Bills. That’s the mentality you need: stick together, trust your team, and fight for each other.", image: "images/potato" },
     ];
 
     const shakeButton = document.getElementById('shake-button');
