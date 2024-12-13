@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
     const responses = [
         { text: "Go Bills", image: "images/potato" },
-        { text: "Stay humble", image: "images/josh1" },
+        { text: "Stay humble", image: "images/josh1.1" },
         { text: "Pressure is a privilege. It means people believe in you.", image: "images/josh2" },
         { text: "I trust my preparation and my teammates. It's about going out there and executing.", image: "images/josh3" },
         { text: "We got a great team this year and I have a good feeling about this", image: "images/josh4" },
