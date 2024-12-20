@@ -41,6 +41,7 @@ h1 {
     text-fill-color: #C60C30;
     font-size: clamp(24px, 60vw, 100px); /* Dynamically scales between 24px and 45px */
     line-height: 1.2;
+    margin-top: 0px
 }
 
 h2 {
@@ -57,6 +58,7 @@ h3 {
     color: white;
     font-size: 30px;
     line-height: 1.2;
+    margin-bottom: 0px
 }
 
 input {
