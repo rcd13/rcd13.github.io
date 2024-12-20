@@ -29,7 +29,7 @@ h1 {
     -webkit-text-stroke: 1px white;
     text-stroke: 1px white;
     text-fill-color: #C60C30;
-    font-size: clamp(24px, 80vw, 45px); /* Dynamically scales between 24px and 36px */
+    font-size: clamp(24px, 80vw, 200px); /* Dynamically scales between 24px and 45px */
     line-height: 1.2;
 }
 
