@@ -50,7 +50,7 @@ h2 {
 }
 
 h3 {
-    font-family: 'Rubik Black 900';
+    font-family: 'Rubik';
     color: white;
     font-size: clamp(24px, 60vw, 100px); /* Dynamically scales between 24px and 45px */
     line-height: 1.2;
