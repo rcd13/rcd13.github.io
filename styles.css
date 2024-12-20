@@ -29,8 +29,8 @@ h1 {
     -webkit-text-stroke: 2px #00338D;
     text-stroke: 2px #00338D;
     text-fill-color: #C60C30;
-    font-size: 35px; /* Smaller font size for mobile */
-    line-height: 1.2; /* Adjust line height for readability */
+    font-size: clamp(24px, 80vw, 45px); /* Dynamically scales between 24px and 36px */
+    line-height: 1.2;
 }
 
 h2 {
