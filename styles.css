@@ -29,7 +29,7 @@ h1 {
     -webkit-text-stroke: 2px #00338D;
     text-stroke: 2px #00338D;
     text-fill-color: #C60C30;
-    font-size: 28px; /* Smaller font size for mobile */
+    font-size: 35px; /* Smaller font size for mobile */
     line-height: 1.2; /* Adjust line height for readability */
 }
 
@@ -81,7 +81,7 @@ button:hover {
 /* Media Query for Small Screens */
 @media screen and (max-width: 600px) {
     h1 {
-        font-size: 24px; /* Further reduce font size on smaller screens */
+        font-size: 35px; /* Further reduce font size on smaller screens */
     }
 
     h2 {
