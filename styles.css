@@ -55,7 +55,7 @@ h2 {
 h3 {
     font-family: 'Arial';
     color: white;
-    font-size: clamp(24px, 60vw, 45px); /* Dynamically scales between 24px and 45px */
+    font-size: 30px;
     line-height: 1.2;
 }
 
@@ -98,7 +98,7 @@ button:hover {
 /* Media Query for Small Screens */
 @media screen and (max-width: 600px) {
     h1 {
-        font-size: 35px; /* Further reduce font size on smaller screens */
+        font-size: 45px; /* Further reduce font size on smaller screens */
     }
 
     h2 {
