@@ -44,9 +44,9 @@ h1 {
 }
 
 h2 {
-    font-size: 14px; /* Slightly larger subtitle on mobile */
+    font-size: 16px; /* Slightly larger subtitle on mobile */
     color: #555;
-    margin-top: 0; /* Remove negative margin */
+    margin-top: 15px;
     margin-bottom: 15px;
     font-weight: normal;
     font-style: italic;
