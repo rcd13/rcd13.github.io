@@ -49,6 +49,16 @@ h2 {
     font-style: italic;
 }
 
+h3 {
+    font-family: 'Arial';
+    color: #C60C30;
+    -webkit-text-stroke: 1px white;
+    text-stroke: 1px white;
+    text-fill-color: #C60C30;
+    font-size: clamp(24px, 60vw, 100px); /* Dynamically scales between 24px and 45px */
+    line-height: 1.2;
+}
+
 input {
     width: 100%; /* Full width on mobile */
     max-width: 90%; /* Add max-width to maintain design */
