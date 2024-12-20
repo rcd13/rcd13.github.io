@@ -26,8 +26,8 @@ body {
 h1 {
     font-family: 'Bills Mafia';
     color: #C60C30;
-    -webkit-text-stroke: 2px white;
-    text-stroke: 2px white;
+    -webkit-text-stroke: 1px white;
+    text-stroke: 1px white;
     text-fill-color: #C60C30;
     font-size: clamp(24px, 80vw, 45px); /* Dynamically scales between 24px and 36px */
     line-height: 1.2;
