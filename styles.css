@@ -25,6 +25,9 @@ body {
 h1 {
     font-family: 'Bills Mafia';
     color: #C60C30;
+    -webkit-text-stroke: 2px #00338D; /* Border width and color */
+    text-stroke: 2px #00338D; /* Border width and color for non-webkit browsers */
+    text-fill-color: #C60C30; /* Ensures main text color is preserved */
 }
 
 h2 {
