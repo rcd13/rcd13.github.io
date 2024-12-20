@@ -15,6 +15,15 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
+h2 {
+    font-size: 14px;
+    color: #555; /* Light gray text */
+    margin-top: -10px; /* Optional: Adjust spacing */
+    margin-bottom: 20px; /* Optional: Add space after the subtitle */
+    font-weight: normal; /* Optional: Make the subtitle less bold */
+    font-style: italic;
+}
+
 input {
     width: 80%;
     padding: 10px;
