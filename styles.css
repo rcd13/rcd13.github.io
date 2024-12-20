@@ -6,6 +6,13 @@ body {
     background-color: #f4f4f4;
 }
 
+@font-face {
+    font-family: 'Bills Mafia'; /* Name your font */
+    src: url('./fonts/bills_mafia-webfont.woff') format('woff'),
+    font-weight: normal; /* Adjust as needed */
+    font-style: normal; /* Adjust as needed */
+}
+
 #magic-8-ball {
     margin: 50px auto;
     padding: 20px;
@@ -17,7 +24,6 @@ body {
 
 h1 {
     font-family: Changa One
-
 }
 
 h2 {
