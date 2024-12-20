@@ -15,13 +15,15 @@ body {
 }
 
 #magic-8-ball {
-    margin: 20px auto; /* Reduce margin for smaller screens */
-    padding: 15px; /* Adjust padding for better fit */
-    max-width: 90%; /* Use a percentage for fluid layout */
+    margin: 20px auto; /* Center the magic 8 ball container */
+    padding: 15px;
+    max-width: 90%; /* Fluid layout */
     background: white;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center; /* Center the content inside the container */
 }
+
 
 #heading-container {
     background-color: #00338D; /* Bills blue */
