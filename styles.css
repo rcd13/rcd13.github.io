@@ -8,7 +8,7 @@ body {
 
 @font-face {
     font-family: 'Bills Mafia'; /* Name your font */
-    src: url('./fonts/bills_mafia-webfont.woff') format('woff'),
+    src: url('./fonts/bills_mafia-webfont.woff') format('woff');
     font-weight: normal; /* Adjust as needed */
     font-style: normal; /* Adjust as needed */
 }
