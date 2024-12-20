@@ -7,16 +7,17 @@ body {
 }
 
 @font-face {
-    font-family: 'Bills Mafia'; /* Name your font */
+    font-family: 'Bills Mafia';
+    src: url('./fonts/bills_mafia-webfont.woff2') format('woff2');
     src: url('./fonts/bills_mafia-webfont.woff') format('woff');
-    font-weight: normal; /* Adjust as needed */
-    font-style: normal; /* Adjust as needed */
+    font-weight: normal;
+    font-style: normal;
 }
 
 #magic-8-ball {
-    margin: 50px auto;
-    padding: 20px;
-    max-width: 400px;
+    margin: 20px auto; /* Reduce margin for smaller screens */
+    padding: 15px; /* Adjust padding for better fit */
+    max-width: 90%; /* Use a percentage for fluid layout */
     background: white;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -25,22 +26,25 @@ body {
 h1 {
     font-family: 'Bills Mafia';
     color: #C60C30;
-    -webkit-text-stroke: 2px #00338D; /* Border width and color */
-    text-stroke: 2px #00338D; /* Border width and color for non-webkit browsers */
-    text-fill-color: #C60C30; /* Ensures main text color is preserved */
+    -webkit-text-stroke: 2px #00338D;
+    text-stroke: 2px #00338D;
+    text-fill-color: #C60C30;
+    font-size: 28px; /* Smaller font size for mobile */
+    line-height: 1.2; /* Adjust line height for readability */
 }
 
 h2 {
-    font-size: 12px;
-    color: #555; /* Light gray text */
-    margin-top: -10px; /* Optional: Adjust spacing */
-    margin-bottom: 20px; /* Optional: Add space after the subtitle */
-    font-weight: normal; /* Optional: Make the subtitle less bold */
+    font-size: 14px; /* Slightly larger subtitle on mobile */
+    color: #555;
+    margin-top: 0; /* Remove negative margin */
+    margin-bottom: 15px;
+    font-weight: normal;
     font-style: italic;
 }
 
 input {
-    width: 80%;
+    width: 100%; /* Full width on mobile */
+    max-width: 90%; /* Add max-width to maintain design */
     padding: 10px;
     margin: 10px 0;
     border: 1px solid #ddd;
@@ -48,8 +52,10 @@ input {
 }
 
 button {
-    padding: 10px 20px;
-    font-size: 16px;
+    width: 90%; /* Full width for buttons on mobile */
+    max-width: 300px; /* Ensure button doesn't get too wide */
+    padding: 10px 15px;
+    font-size: 14px; /* Reduce font size slightly */
     background-color: #007BFF;
     color: white;
     border: none;
@@ -67,7 +73,31 @@ button:hover {
 }
 
 #response-area p {
-    font-size: 18px;
+    font-size: 16px; /* Adjust font size for readability */
     font-weight: bold;
     color: #333;
 }
+
+/* Media Query for Small Screens */
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 24px; /* Further reduce font size on smaller screens */
+    }
+
+    h2 {
+        font-size: 12px; /* Adjust subtitle size */
+    }
+
+    button {
+        font-size: 14px; /* Ensure buttons remain legible */
+    }
+
+    input {
+        font-size: 14px; /* Adjust input field text size */
+    }
+
+    #magic-8-ball {
+        padding: 10px; /* Reduce padding for smaller screens */
+    }
+}
+
