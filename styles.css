@@ -25,7 +25,7 @@ body {
 
 #heading-container {
     background-color: #00338D; /* Bills blue */
-    padding: 5px 40px; /* Add some padding for spacing */
+    padding: 5px 35px; /* Add some padding for spacing */
     border-radius: 5px; /* Rounded corners (optional) */
     display: inline-block; /* Makes the container only as wide as the heading */
 }
@@ -50,7 +50,7 @@ h2 {
 }
 
 h3 {
-    font-family: 'Rubik';
+    font-family: 'Arial';
     color: white;
     font-size: clamp(24px, 60vw, 100px); /* Dynamically scales between 24px and 45px */
     line-height: 1.2;
