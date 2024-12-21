@@ -91,9 +91,9 @@ button:hover {
 
 #response-area img {
     max-width: 100%;
-    margin: 10px 0;
     text-align: center;
-    align: center;
+    display: block; /* This ensures the image behaves as a block element */
+    margin: 0 auto; /* This centers the image horizontally */
 }
 
 #response-area p {
