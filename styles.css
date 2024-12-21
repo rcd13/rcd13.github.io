@@ -58,10 +58,10 @@ h2 {
 h3 {
     font-family: 'Russo One';
     color: white;
-    font-size: 30px;
+    font-size: clamp(30px, 50vw, 60px); /* Dynamically scales between 24px and 45px */
     line-height: 1.2;
     margin-bottom: 0px
-    letter-spacing: 25px; /* Add letter spacing (adjust value as needed) */
+    letter-spacing: 40px; /* Add letter spacing (adjust value as needed) */
 }
 
 input {
