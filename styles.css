@@ -50,7 +50,7 @@ h1 {
     line-height: 1.1;
     margin-top: 0px;
     margin-bottom: 0px;
-    letter-spacing: 15px; /* Add letter spacing (adjust value as needed) */
+    letter-spacing: 1em; /* Add letter spacing (adjust value as needed) */
 }
 
 h2 {
@@ -68,7 +68,7 @@ h3 {
     font-size: clamp(30px, 50vw, 60px); /* Dynamically scales between 24px and 45px */
     line-height: 1.1;
     margin-bottom: 0px
-    letter-spacing: 60px; /* Add letter spacing (adjust value as needed) */
+    letter-spacing: 3em; /* Add letter spacing (adjust value as needed) */
 }
 
 input {
