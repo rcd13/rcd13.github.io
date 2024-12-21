@@ -47,10 +47,9 @@ h1 {
     text-stroke: 1px white;
     text-fill-color: #C60C30;
     font-size: clamp(24px, 80vw, 100px); /* Dynamically scales between 24px and 45px */
-    line-height: 1.1;
     margin-top: 0px;
     margin-bottom: 0px;
-    letter-spacing: 1em; /* Add letter spacing (adjust value as needed) */
+    letter-spacing: .2em; /* Add letter spacing (adjust value as needed) */
 }
 
 h2 {
@@ -66,7 +65,6 @@ h3 {
     font-family: 'Russo One';
     color: white;
     font-size: clamp(30px, 50vw, 60px); /* Dynamically scales between 24px and 45px */
-    line-height: 1.1;
     margin-bottom: 0px
     letter-spacing: 3em; /* Add letter spacing (adjust value as needed) */
 }
