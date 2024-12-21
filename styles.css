@@ -30,6 +30,7 @@ body {
     width: 90%;
     border-radius: 5px;
     margin: 30px auto; /* Centered with space around */
+    margin-top: 10px
 }
 
 #footer-container {
