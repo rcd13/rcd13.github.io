@@ -90,7 +90,7 @@ button:hover {
 }
 
 #response-area img {
-    max-width: 100%;
+    max-width: 80%;
     text-align: center;
     display: block; /* This ensures the image behaves as a block element */
     margin: 0 auto; /* This centers the image horizontally */
