@@ -61,7 +61,7 @@ h3 {
     font-size: 30px;
     line-height: 1.2;
     margin-bottom: 0px
-    letter-spacing: 5px; /* Add letter spacing (adjust value as needed) */
+    letter-spacing: 10px; /* Add letter spacing (adjust value as needed) */
 }
 
 input {
