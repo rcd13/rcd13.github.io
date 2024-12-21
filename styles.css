@@ -28,8 +28,8 @@ body {
 #heading-container {
     background-color: #00338D; /* Bills blue */
     padding: 10px 0; /* Add some padding for spacing */
-    width: 90%
-    border-radius: 10px; /* Rounded corners (optional) */
+    width: 80%
+    border-radius: 15px; /* Rounded corners (optional) */
     margin-bottom: 30px; /* Adds space below the heading container */
 }
 
