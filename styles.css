@@ -27,7 +27,7 @@ body {
 
 #heading-container {
     background-color: #00338D; /* Bills blue */
-    padding: 10px 0; /* Add some padding for spacing */
+    padding: 0px 0; /* Add some padding for spacing */
     width: 80%
     border-radius: 15px; /* Rounded corners (optional) */
     margin-bottom: 30px; /* Adds space below the heading container */
@@ -42,8 +42,8 @@ h1 {
     font-size: clamp(24px, 60vw, 100px); /* Dynamically scales between 24px and 45px */
     line-height: 1.2;
     margin-top: 0px;
-    margin-bottom: 5px;
-    letter-spacing: 10px; /* Add letter spacing (adjust value as needed) */
+    margin-bottom: 0px;
+    letter-spacing: 15px; /* Add letter spacing (adjust value as needed) */
 }
 
 h2 {
@@ -61,7 +61,7 @@ h3 {
     font-size: 30px;
     line-height: 1.2;
     margin-bottom: 0px
-    letter-spacing: 10px; /* Add letter spacing (adjust value as needed) */
+    letter-spacing: 25px; /* Add letter spacing (adjust value as needed) */
 }
 
 input {
@@ -93,6 +93,7 @@ button:hover {
     max-width: 100%;
     margin: 10px 0;
     text-align: center;
+    align: center;
 }
 
 #response-area p {
