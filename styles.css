@@ -49,7 +49,7 @@ h1 {
          1.5px -1.5px 0 white,  /* Top right */
         -1.5px  1.5px 0 white,  /* Bottom left */
          1.5px  1.5px 0 white;  /* Bottom right */
-    font-size: clamp(24px, 80vw, 100px);
+    font-size: clamp(24px, 90vw, 120px);
     margin-top: 5px;
     margin-bottom: 10px;
     letter-spacing: 0.1em;
