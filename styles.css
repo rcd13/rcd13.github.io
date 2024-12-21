@@ -40,7 +40,7 @@ h1 {
     text-stroke: 1px white;
     text-fill-color: #C60C30;
     font-size: clamp(24px, 60vw, 100px); /* Dynamically scales between 24px and 45px */
-    line-height: 1.2;
+    line-height: 1.1;
     margin-top: 0px;
     margin-bottom: 0px;
     letter-spacing: 15px; /* Add letter spacing (adjust value as needed) */
@@ -59,9 +59,9 @@ h3 {
     font-family: 'Russo One';
     color: white;
     font-size: clamp(30px, 50vw, 60px); /* Dynamically scales between 24px and 45px */
-    line-height: 1.2;
+    line-height: 1.1;
     margin-bottom: 0px
-    letter-spacing: 40px; /* Add letter spacing (adjust value as needed) */
+    letter-spacing: 60px; /* Add letter spacing (adjust value as needed) */
 }
 
 input {
@@ -93,7 +93,7 @@ button:hover {
     max-width: 80%;
     text-align: center;
     display: block; /* This ensures the image behaves as a block element */
-    margin: 0 auto; /* This centers the image horizontally */
+    margin: 20 auto; /* This centers the image horizontally */
 }
 
 #response-area p {
