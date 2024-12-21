@@ -46,7 +46,7 @@ h1 {
     -webkit-text-stroke: 1px white;
     text-stroke: 1px white;
     text-fill-color: #C60C30;
-    font-size: clamp(24px, 60vw, 100px); /* Dynamically scales between 24px and 45px */
+    font-size: clamp(24px, 80vw, 100px); /* Dynamically scales between 24px and 45px */
     line-height: 1.1;
     margin-top: 0px;
     margin-bottom: 0px;
