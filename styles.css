@@ -44,9 +44,11 @@ body {
 h1 {
     font-family: 'Bills Mafia';
     color: #C60C30;
-    -webkit-text-stroke: 0.5px white;
-    text-stroke: 0.5px white;
-    text-fill-color: #C60C30;
+    text-shadow: 
+         1px  1px 0 white,  /* Top left */
+         1px  1px 0 white,  /* Top right */
+         1px  1px 0 white,  /* Bottom left */
+         1px  1px 0 white;  /* Bottom right */
     font-size: clamp(24px, 80vw, 100px);
     margin-top: 5px;
     margin-bottom: 10px;
