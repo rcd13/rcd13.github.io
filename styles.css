@@ -15,29 +15,29 @@ body {
 }
 
 #magic-8-ball {
-    margin: 20px auto; /* Center the magic 8 ball container */
+    margin: 20px auto;
     padding: 15px;
-    max-width: 90%; /* Fluid layout */
+    max-width: 90%;
     background: white;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    text-align: center; /* Center the content inside the container */
+    text-align: center;
 }
 
-
 #heading-container {
-    background-color: #00338D; /* Bills blue */
-    padding: 30px 0; /* Add some padding for spacing */
-    width: 80%
-    border-radius: 15px; /* Rounded corners (optional) */
-    margin: 30px; /* Adds space below the heading container */
+    background-color: #00338D;
+    padding: 30px 0;
+    width: 80%;
+    border-radius: 15px;
+    margin: 30px auto; /* Centered with space around */
 }
 
 #footer-container {
-    background-color: #00338D; /* Bills blue */
-    padding: 30px 0; /* Add some padding for spacing */
-    width: 80%
-    border-radius: 15px; /* Rounded corners (optional) */
+    background-color: #00338D;
+    padding: 30px 0;
+    width: 80%;
+    border-radius: 15px;
+    margin: 30px auto; /* Centered with space around */
 }
 
 h1 {
@@ -46,14 +46,14 @@ h1 {
     -webkit-text-stroke: 1px white;
     text-stroke: 1px white;
     text-fill-color: #C60C30;
-    font-size: clamp(24px, 80vw, 100px); /* Dynamically scales between 24px and 45px */
-    margin-top: 0px;
-    margin-bottom: 0px;
-    letter-spacing: .01em; /* Add letter spacing (adjust value as needed) */
+    font-size: clamp(24px, 80vw, 100px);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    letter-spacing: 0.01em;
 }
 
 h2 {
-    font-size: 16px; /* Slightly larger subtitle on mobile */
+    font-size: 16px;
     color: #555;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -62,16 +62,16 @@ h2 {
 }
 
 h3 {
-    font-family: 'Arial';
+    font-family: 'Russo One';
     color: white;
-    font-size: clamp(30px, 50vw, 60px); /* Dynamically scales between 24px and 45px */
-    margin-bottom: 0px
-    letter-spacing: 10em; /* Add letter spacing (adjust value as needed) */
+    font-size: clamp(30px, 50vw, 60px);
+    margin-bottom: 5px;
+    letter-spacing: 2em;
 }
 
 input {
-    width: 100%; /* Full width on mobile */
-    max-width: 90%; /* Add max-width to maintain design */
+    width: 100%;
+    max-width: 90%;
     padding: 10px;
     margin: 10px 0;
     border: 1px solid #ddd;
@@ -79,16 +79,16 @@ input {
 }
 
 button {
-    width: 90%; /* Full width for buttons on mobile */
-    max-width: 300px; /* Ensure button doesn't get too wide */
+    width: 90%;
+    max-width: 300px;
     padding: 10px 15px;
-    font-size: 14px; /* Reduce font size slightly */
+    font-size: 14px;
     background-color: #007BFF;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-bottom: 30px
+    margin-bottom: 30px;
 }
 
 button:hover {
@@ -98,38 +98,38 @@ button:hover {
 #response-area img {
     max-width: 70%;
     text-align: center;
-    display: block; /* This ensures the image behaves as a block element */
-    margin: 30px auto; /* This centers the image horizontally */
+    display: block;
+    margin: 30px auto;
 }
 
 #response-area p {
-    font-size: 16px; /* Adjust font size for readability */
+    font-size: 16px;
     font-weight: bold;
     color: #333;
     max-width: 70%;
-    margin: 0 auto; /* This centers the image horizontally */
+    margin: 0 auto;
+    margin-bottom: 30px; /* Added more space */
 }
 
 /* Media Query for Small Screens */
 @media screen and (max-width: 600px) {
     h1 {
-        font-size: 45px; /* Further reduce font size on smaller screens */
+        font-size: 45px;
     }
 
     h2 {
-        font-size: 12px; /* Adjust subtitle size */
+        font-size: 12px;
     }
 
     button {
-        font-size: 14px; /* Ensure buttons remain legible */
+        font-size: 14px;
     }
 
     input {
-        font-size: 14px; /* Adjust input field text size */
+        font-size: 14px;
     }
 
     #magic-8-ball {
-        padding: 10px; /* Reduce padding for smaller screens */
+        padding: 10px;
     }
 }
-
