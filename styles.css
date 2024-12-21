@@ -27,7 +27,7 @@ body {
 
 #heading-container {
     background-color: #00338D; /* Bills blue */
-    padding: 0px 0; /* Add some padding for spacing */
+    padding: 30px 0; /* Add some padding for spacing */
     width: 80%
     border-radius: 15px; /* Rounded corners (optional) */
     margin-bottom: 30px; /* Adds space below the heading container */
@@ -90,7 +90,7 @@ button:hover {
 }
 
 #response-area img {
-    max-width: 80%;
+    max-width: 70%;
     text-align: center;
     display: block; /* This ensures the image behaves as a block element */
     margin: 20 auto; /* This centers the image horizontally */
@@ -100,6 +100,7 @@ button:hover {
     font-size: 16px; /* Adjust font size for readability */
     font-weight: bold;
     color: #333;
+    max-width: 70%;
 }
 
 /* Media Query for Small Screens */
