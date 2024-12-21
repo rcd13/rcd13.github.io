@@ -104,7 +104,7 @@ button:hover {
 /* Media Query for Small Screens */
 @media screen and (max-width: 600px) {
     h1 {
-        font-size: 45px; /* Further reduce font size on smaller screens */
+        font-size: 50px; /* Further reduce font size on smaller screens */
     }
 
     h2 {
